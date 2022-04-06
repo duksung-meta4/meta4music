@@ -1,24 +1,25 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
 
-
 .nav{
-    background-color: black;
-    color: #989898;
-
+    background-color: white;
     display:flex;
     justify-content: space-between;
     align-items: center;
     padding: 30px 10%;
-
     font-family: 'Open Sans', sans-serif;
+    position: fixed;
+    left:0;
+    right:0;
 }
 
 .nav-logo{
+    color: black;
     font-weight: 800;
     font-size: 1.25rem;
     cursor: pointer;
 }
 .nav-item{
+    color: rgba(0, 0, 0, 0.55);
     display: inline-block;
     padding: 0px 20px;
     font-weight: 0.75rem;
@@ -31,5 +32,5 @@
 }
 
 .nav-item:hover{
-    color:white;
+    color:black;
 }
